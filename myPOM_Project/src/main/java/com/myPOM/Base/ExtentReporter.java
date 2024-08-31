@@ -27,7 +27,8 @@ public class ExtentReporter {
 		extentReport.attachReporter(spark);
 		
 		Properties infoprop = new Properties();
-		File infopath = new File("C:\\Users\\ADMIN\\eclipse-workspace\\myPOM_Project\\src\\main\\resources\\config.properties");		
+		String proppath = "C:\\Users\\ADMIN\\git\\ParabankDemo-POMproject\\myPOM_Project\\src\\main\\resources\\config.properties";
+		File infopath = new File(proppath);		
 		
 		try {
 			FileInputStream infofis = new FileInputStream(infopath);

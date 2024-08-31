@@ -1,207 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-31T18:41:00 IST" name="Default suite" finished-at="2024-08-31T18:41:01 IST" duration-ms="801">
+  <suite started-at="2024-08-31T18:53:16 IST" name="Suite" finished-at="2024-08-31T18:53:38 IST" duration-ms="21637">
     <groups>
     </groups>
-    <test started-at="2024-08-31T18:41:00 IST" name="Default test" finished-at="2024-08-31T18:41:01 IST" duration-ms="801">
+    <test started-at="2024-08-31T18:53:16 IST" name="Test" finished-at="2024-08-31T18:53:38 IST" duration-ms="21637">
       <class name="com.main.tests.RegisterPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.main.tests.RegisterPageTest@38af9828]" started-at="2024-08-31T18:41:00 IST" name="setup" finished-at="2024-08-31T18:41:00 IST" duration-ms="34" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at com.myPOM.Base.BasePage.setupdriverandOpenURL(BasePage.java:34)
-at com.main.tests.RegisterPageTest.setup(RegisterPageTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.main.tests.RegisterPageTest@81d9a72]" started-at="2024-08-31T18:53:29 IST" name="setup" finished-at="2024-08-31T18:53:33 IST" duration-ms="4107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="newregistertest()[pri:0, instance:com.main.tests.RegisterPageTest@38af9828]" started-at="2024-08-31T18:41:01 IST" name="newregistertest" finished-at="2024-08-31T18:41:01 IST" duration-ms="1" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at com.myPOM.Base.BasePage.setupdriverandOpenURL(BasePage.java:34)
-at com.main.tests.RegisterPageTest.setup(RegisterPageTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="newregistertest()[pri:0, instance:com.main.tests.RegisterPageTest@81d9a72]" started-at="2024-08-31T18:53:33 IST" name="newregistertest" finished-at="2024-08-31T18:53:35 IST" duration-ms="1577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newregistertest -->
-        <test-method signature="setuser()[pri:1, instance:com.main.tests.RegisterPageTest@38af9828]" started-at="2024-08-31T18:41:01 IST" name="setuser" finished-at="2024-08-31T18:41:01 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at com.myPOM.Base.BasePage.setupdriverandOpenURL(BasePage.java:34)
-at com.main.tests.RegisterPageTest.setup(RegisterPageTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="setuser()[pri:1, instance:com.main.tests.RegisterPageTest@81d9a72]" started-at="2024-08-31T18:53:35 IST" name="setuser" finished-at="2024-08-31T18:53:35 IST" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setuser -->
-        <test-method signature="URLtest()[pri:2, instance:com.main.tests.RegisterPageTest@38af9828]" started-at="2024-08-31T18:41:01 IST" name="URLtest" finished-at="2024-08-31T18:41:01 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.toLowerCase()" because "browser" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because "browser" is null
-at com.myPOM.Base.BasePage.setupdriverandOpenURL(BasePage.java:34)
-at com.main.tests.RegisterPageTest.setup(RegisterPageTest.java:25)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="URLtest()[pri:2, instance:com.main.tests.RegisterPageTest@81d9a72]" started-at="2024-08-31T18:53:35 IST" name="URLtest" finished-at="2024-08-31T18:53:35 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- URLtest -->
-        <test-method signature="Titletest()[pri:3, instance:com.main.tests.RegisterPageTest@38af9828]" started-at="2024-08-31T18:41:01 IST" name="Titletest" finished-at="2024-08-31T18:41:01 IST" depends-on-methods="com.main.tests.RegisterPageTest.URLtest" duration-ms="1" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method com.main.tests.RegisterPageTest.Titletest() on instance com.main.tests.RegisterPageTest@38af9828 depends on not successfully finished methods 
-[com.main.tests.RegisterPageTest.URLtest() on instance com.main.tests.RegisterPageTest@38af9828]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method com.main.tests.RegisterPageTest.Titletest() on instance com.main.tests.RegisterPageTest@38af9828 depends on not successfully finished methods 
-[com.main.tests.RegisterPageTest.URLtest() on instance com.main.tests.RegisterPageTest@38af9828]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method signature="Titletest()[pri:3, instance:com.main.tests.RegisterPageTest@81d9a72]" started-at="2024-08-31T18:53:35 IST" name="Titletest" finished-at="2024-08-31T18:53:35 IST" depends-on-methods="com.main.tests.RegisterPageTest.URLtest" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Titletest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.main.tests.RegisterPageTest@38af9828]" started-at="2024-08-31T18:41:01 IST" name="teardown" finished-at="2024-08-31T18:41:01 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.main.tests.RegisterPageTest@81d9a72]" started-at="2024-08-31T18:53:35 IST" name="teardown" finished-at="2024-08-31T18:53:38 IST" duration-ms="2244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.main.tests.RegisterPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.main.tests.PageFactoryLoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:16 IST" name="setup" finished-at="2024-08-31T18:53:23 IST" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:23 IST" name="loginTest" data-provider="testdata" finished-at="2024-08-31T18:53:25 IST" duration-ms="1933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:25 IST" name="loginTest" data-provider="testdata" finished-at="2024-08-31T18:53:25 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:26 IST" name="loginTest" data-provider="testdata" finished-at="2024-08-31T18:53:26 IST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emp1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="openregisterpage()[pri:1, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:26 IST" name="openregisterpage" finished-at="2024-08-31T18:53:27 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openregisterpage -->
+        <test-method signature="Gettitle()[pri:2, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:27 IST" name="Gettitle" finished-at="2024-08-31T18:53:27 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gettitle -->
+        <test-method signature="PrintLinks()[pri:3, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:27 IST" name="PrintLinks" finished-at="2024-08-31T18:53:27 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintLinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.main.tests.PageFactoryLoginPageTest@1cf56a1c]" started-at="2024-08-31T18:53:27 IST" name="teardown" finished-at="2024-08-31T18:53:29 IST" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.main.tests.PageFactoryLoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

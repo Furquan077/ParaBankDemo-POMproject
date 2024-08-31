@@ -6,8 +6,9 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
+	  <class name="com.main.tests.PageFactoryLoginPageTest"/>
       <class name="com.main.tests.RegisterPageTest"/>
-      <class name="com.main.tests.PageFactoryLoginPageTest"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
