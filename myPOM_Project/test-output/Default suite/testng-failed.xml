@@ -3,14 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.main.tests.PageFactoryLoginPageTest">
+      <class name="com.main.tests.RegisterPageTest">
         <methods>
-          <include name="openregisterpage"/>
-          <include name="loginTest"/>
-          <include name="setup"/>
+          <include name="setuser"/>
+          <include name="newregistertest"/>
+          <include name="Titletest"/>
+          <include name="URLtest"/>
           <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.main.tests.PageFactoryLoginPageTest -->
+      </class> <!-- com.main.tests.RegisterPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

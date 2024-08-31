@@ -20,7 +20,7 @@ public class BasePage {
 		prop = new Properties();
 		//String path = System.getProperty("C:\\Users\\ADMIN\\eclipse-workspace\\myPOM_Project\\src\\main\\resources\\config.properties");
 
-		File propfile = new File("C:\\Users\\ADMIN\\eclipse-workspace\\myPOM_Project\\src\\main\\resources\\config.properties");		
+		File propfile = new File("C:\\Users\\ADMIN\\git\\ParabankDemo-POMproject\\myPOM_Project\\src\\main\\resources\\config.properties");		
 		try {
 			FileInputStream fis = new FileInputStream(propfile);
 			prop.load(fis);
