@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MYPOM_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="My_First_POM_Test(failed)">
+    <classes>
+      <class name="com.main.tests.PageFactoryLoginPageTest">
+        <methods>
+          <include name="openregisterpage"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.main.tests.PageFactoryLoginPageTest -->
+    </classes>
+  </test> <!-- My_First_POM_Test(failed) -->
+</suite> <!-- Failed suite [MYPOM_Suite] -->
